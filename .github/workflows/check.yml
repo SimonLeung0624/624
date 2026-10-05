@@ -1,3 +1,4 @@
+
 name: VPN Gate Node Check
 
 on:
@@ -72,4 +73,3 @@ jobs:
 
       - name: Show site URL
         run: 'echo "site: https://jerylihub.github.io/gate/ (deploy outcome: ${{ steps.deployment.outcome }})"'
-Copy
